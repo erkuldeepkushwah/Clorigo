@@ -11,7 +11,7 @@ const Hero: React.FC = () => {
       subtitle: "Trusted by the most innovative companies worldwide for over a decade."
     },
     {
-      image: "https://uploads.onecompiler.io/4426xrepu/1781001921745/WhatsApp%20Image%202026-06-09%20at%203,35,53%20PM-Picsart-AiImageEnhancer.jpeg",
+      image: "https://uploads.onecompiler.io/4426xrepu/1781007958744/kk-Picsart-AiImageEnhancer1.png",
       title: "Innovation That\nDrives Success.",
       subtitle: "Building the future of technology with precision and passion."
     }
