@@ -96,7 +96,7 @@ ${name}`;
                       required
                       value={formData.name}
                       onChange={handleChange}
-                      placeholder="John Doe" 
+                      placeholder="" 
                       className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:border-primary focus:ring-1 focus:ring-primary outline-none transition-all text-sm"
                     />
                   </div>
@@ -108,7 +108,7 @@ ${name}`;
                       required
                       value={formData.email}
                       onChange={handleChange}
-                      placeholder="john@example.com" 
+                      placeholder="" 
                       className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:border-primary focus:ring-1 focus:ring-primary outline-none transition-all text-sm"
                     />
                   </div>
@@ -122,7 +122,7 @@ ${name}`;
                       name="phone"
                       value={formData.phone}
                       onChange={handleChange}
-                      placeholder="+1 (123) 456-7890" 
+                      placeholder="" 
                       className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:border-primary focus:ring-1 focus:ring-primary outline-none transition-all text-sm"
                     />
                   </div>
