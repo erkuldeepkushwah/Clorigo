@@ -6,7 +6,7 @@ const Hero: React.FC = () => {
 
   const slides = [
     {
-      image: "https://uploads.onecompiler.io/4426xrepu/1781001921745/WhatsApp%20Image%202026-06-09%20at%203,35,53%20PM-Picsart-AiImageEnhancer.jpeg",
+      image: "https://uploads.onecompiler.io/4426xrepu/1781002479390/image-Picsart-AiImageEnhancer%20(2).png",
       title: "Extreme Services.\nExtraordinary Results.",
       subtitle: "Trusted by the most innovative companies worldwide for over a decade."
     },
