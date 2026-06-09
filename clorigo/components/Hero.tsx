@@ -11,12 +11,11 @@ const Hero: React.FC = () => {
       subtitle: "Trusted by the most innovative companies worldwide for over a decade."
     },
     {
-      image: "https://uploads.onecompiler.io/4426xrepu/1781003500801/image-Picsart-AiImageEnhancer%20(3).png",
+      image: "https://uploads.onecompiler.io/4426xrepu/1781003939724/image-Picsart-AiImageEnhancer%20(4).png",
       title: "Innovation That\nDrives Success.",
       subtitle: "Building the future of technology with precision and passion."
     }
   ];
-
   const nextSlide = () => {
     setCurrentSlide((prev) => (prev + 1) % slides.length);
   };
