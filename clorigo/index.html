@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clorigo Infotech - Redefining Innovation</title>
+    <link rel="icon" type="image/png" href="https://uploads.onecompiler.io/4426xrepu/44bwju5jt/ChatGPT%20Image%20Jan%2028,%202026,%2012_23_47%20PM.png">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+            },
+            colors: {
+              primary: '#E61E25', /* Clorigo Red */
+              secondary: '#1a1a1a', /* Dark Black/Gray */
+              dark: '#000000',
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      /* Custom Scrollbar */
+      ::-webkit-scrollbar {
+        width: 8px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #f1f1f1;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #E61E25;
+        border-radius: 4px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #c41920;
+      }
+      .blob-bg {
+        background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
+      }
+      .clip-skew-right {
+        /* Fixed 80px slant */
+        clip-path: polygon(0 0, 100% 0, calc(100% - 80px) 100%, 0% 100%);
+      }
+      
+      /* Global Smooth Scroll & Padding for Fixed Header */
+      html {
+        scroll-behavior: smooth;
+        scroll-padding-top: 100px; /* Adjusts for the fixed header height (approx 80-100px) */
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://esm.sh/react@^19.2.4/",
+    "react": "https://esm.sh/react@^19.2.4",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.4/",
+    "lucide-react": "https://esm.sh/lucide-react@^0.563.0",
+    "@google/genai": "https://esm.sh/@google/genai@^1.38.0"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body>
+    <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
