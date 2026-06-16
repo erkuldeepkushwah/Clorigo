@@ -4,7 +4,7 @@ import { createServer as createViteServer } from "vite";
 import { GoogleGenAI } from "@google/genai";
 
 const app = express();
-const PORT = 3000;
+app.listen(PORT, "0.0.0.0");
 
 app.use(express.json());
 
@@ -38,7 +38,7 @@ app.post("/api/chat", async (req, res) => {
 
     // Initialize stateful chat with system instructions containing Clorigo Infotech knowledge base
     const chat = ai.chats.create({
-      model: "gemini-3.5-flash",
+      model: "gemini-2.5-flash",
       config: {
         systemInstruction: `You are CloriBot, the official intelligent assistant for Clorigo Infotech.
 Your objective is to provide professional, polite, helpful, and concise answers to visitor queries based strictly on the following company information:
