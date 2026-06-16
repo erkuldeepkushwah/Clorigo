@@ -56,7 +56,7 @@ Website: www.clorigo.com
 Phone: +91 7898692133
 Email: clorigoindia@gmail.com
 Address: 201 Ratna Lok Colony, Vijay Nagar, Indore
-Instagram: https://www.instagram.com/clorigoindia/
+Instagram: clorigoindia
 
 End of Instructions.`;
 ```
