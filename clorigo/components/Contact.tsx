@@ -47,7 +47,7 @@ Best Regards,
 ${nameText}`;
 
     // Open mail client
-    window.location.href = `mailto:infosparkindia0@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+    window.location.href = `mailto:clorigoindia@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
   };
 
   return (
